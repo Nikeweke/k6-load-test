@@ -7,10 +7,10 @@
 
 ### Quick start 
 ```
-k6 run general.js
+k6 run main.js
 ```
 
 ### Get summary-test report into JSON
 ```
-k6 run --summary-export=./reports/channels.json channels.js
+k6 run --summary-export=main.json main.js
 ```
